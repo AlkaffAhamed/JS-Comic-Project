@@ -1,0 +1,33 @@
+.titlerow
+{
+    background-color: rgb(255, 177, 82);
+    border-bottom: 0.3em solid;
+    border-color: rgb(182, 120, 44);
+    margin: 0%;
+    padding: 1em 2em 1em 2em;
+}
+
+.rowcontainer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.747);
+    margin: 0% 15% 0% 15%;
+}
+
+.rowitem
+{
+    padding: 0.5em;
+}
+
+.imageitem
+{
+    padding: 0.7em;
+}
+
+.navitem
+{
+    padding: 0.5em;
+}

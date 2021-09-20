@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Comics Project</title>
+  </head>
+  <body background="res/tile200.png" style="margin: 0;">
+    <div class="titlerow">
+      <h1>The Comic Reader</h1>
+    <p>
+      This is a comic reader that loads comics from
+      <a href="https://xkcd.com/">xkcd.com</a>.
+    </p>
+    <p></p>
+    </div>
+    <div class="rowcontainer">
+      <div class="rowitem">
+        <h2 id="imgTitle">Image Title</h2>
+      </div>
+    </div>
+    <div class="rowcontainer" id="imageContainer">
+      <img class="imageitem" id="img1" style="zoom:33%" alt="Loading...">
+      <img class="imageitem" id="img2" style="zoom:50%" alt="Loading...">
+      <img class="imageitem" id="img3" style="zoom:33%" alt="Loading...">
+    </div>
+    <div class="rowcontainer">
+      <div class="navitem">
+        <button id="btnPrev">Prev</button>
+      </div>
+      <div class="navitem">
+        <button id="btnNext">Next</button>
+      </div>
+    </div>
+    <div class="rowcontainer">
+      <div class="navitem">Go to image:</div>
+      <div class="navitem" style="padding-right: 0em; padding-left: 0em;;">
+        <input type="number" step="1" name="txtGo" id="txtGo" value="3" />
+      </div>
+      <div class="navitem">
+        <button id="btnGo">GO!</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
